@@ -1,6 +1,6 @@
 # eslint-plugin-react
 
-[![Build Status](https://github.com/palastri/eslint-plugin-react/workflows/production.yml/badge.svg?branch=main)](https://github.com/palastri/eslint-plugin-react/actions/workflows/production.yml)
+[![Build Status](https://github.com/palastri/eslint-plugin-react/workflows/Release/badge.svg?branch=main)](https://github.com/palastri/eslint-plugin-react/actions/workflows/production.yml)
 
 ## Installation
 
@@ -65,3 +65,7 @@ One or more default rules from those plugins are overridden such as:
 | `@typescript-eslint/array-type`      | Require consistently using either `T[]` or `Array<T>` for arrays. | `["error", { default: "array-simple" }]`                                                 |
 | `@typescript-eslint/member-ordering` | Require a consistent member declaration order.                    | `["error", { default: { optionallyOrder: "required-first", order: "alphabetically" } }]` |
 | `react/prop-types`                   | Disallow missing props validation in a React component definition | `"off"`                                                                                  |
+
+## Changelog
+
+Detailed changes for each release are documented in [CHANGELOG.md](./CHANGELOG.md)
