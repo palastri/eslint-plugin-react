@@ -1,6 +1,6 @@
 {
   "name": "@palastri/eslint-plugin-react",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ESLint plugin for React",
   "keywords": [
     "eslint",
