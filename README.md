@@ -13,8 +13,6 @@ yarn add --dev eslint @palastri/eslint-plugin-react
 Add `@palastri/eslint-plugin-react` to the plugins section of your `.eslintrc` configuration file. You
 can omit the `eslint-plugin-` prefix:
 
-## TODO
-
 ```json
 {
   "extends": ["@palastri/react/recommended"],
@@ -27,7 +25,7 @@ can omit the `eslint-plugin-` prefix:
 ### Recommended
 
 This plugin exports a recommended configuration that enforces good testing practices.
-To enable this configuration use the `extends` property in your `.eslintrc` config file:
+To enable this configuration, please use the `extends` property in the `.eslintrc` config file:
 
 ```json
 {
@@ -38,11 +36,21 @@ To enable this configuration use the `extends` property in your `.eslintrc` conf
 ### Stylistic
 
 This plugin also exports a configuration named `stylistic`, which adds some stylistic rules. The rules considered to be best practice for modern TypeScript codebase, but that do not impact program logic.
-To enable this configuration use the `extends` property in your `.eslintrc` config file:
+To enable this configuration, please use the `extends` property in the `.eslintrc` config file:
 
 ```json
 {
   "extends": ["plugin:@palastri/react/stylistic"]
+}
+```
+
+### Next.js
+
+This plugin is ready to integrate with [Next.js](https://nextjs.org/). Instead of using `recommended`, it must use `next` for the configuration. To enable this configuration, please use the `extends` property in the `.eslintrc` config file:
+
+```json
+{
+  "extends": ["plugin:@palastri/react/next", "next"]
 }
 ```
 
