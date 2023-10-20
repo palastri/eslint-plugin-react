@@ -1,5 +1,8 @@
+import { config } from "./base";
+
 const stylistic = {
-  extends: ["./configs/base", "plugin:@typescript-eslint/stylistic"],
+  ...config,
+  extends: [...config.extends, "plugin:@typescript-eslint/stylistic"],
   rules: {
     "@typescript-eslint/array-type": ["error", { default: "array-simple" }],
     "@typescript-eslint/member-ordering": [
