@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/palastri/eslint-plugin-react/compare/v1.1.0...v1.1.1) (2023-10-20)
+
+
+### Bug Fixes
+
+* Addressed failure to load plugin for Yarn PnP ([bfa275b](https://github.com/palastri/eslint-plugin-react/commit/bfa275b8d263c2db6d43bf803dc4289576038747))
+
 # [1.1.0](https://github.com/palastri/eslint-plugin-react/compare/v1.0.0...v1.1.0) (2023-09-05)
 
 
